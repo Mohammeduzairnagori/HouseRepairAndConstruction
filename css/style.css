@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial , sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.navbar h2 {
+    color: gray;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+.navbar span {
+    font-size: xx-large;
+    font-weight: 1000;
+}
+
+.house-repair {
+    margin: 0;
+    padding: 0;
+}
+
+.house-repair img {
+    width: 100%;
+}
+.house-repair .house-repair-div {
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    margin-left: 100px;
+}
+
+.house-repair-div h2{
+    font-size: 50px;
+    color: white;
+}
+
+.house-repair-div h1{
+    font-size: 100px;
+    color: white;
+    border-bottom: 11px solid white;
+    padding-bottom: 30px;
+}
+
+.house-repair-services {
+    display: flex;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.house-repair-services #service-group {
+    padding: 0 60px;
+}
+
+.house-repair-services #service-group p {
+    padding-top: 20px;
+    color: white;
+}
+
+.specialize {
+    width: 100%;
+    background-color:rgb(235, 232, 232);
+    margin: 0;
+    padding: 0;
+}
+
+.specialize-div {
+    width: 100%;
+    text-align: center;
+    padding: 150px 300px;
+}
+
+.specialize .specialize-div h3 {
+    margin-top: 0;
+    color: gray;
+    font-weight: lighter;
+    font-size:large;
+}
+
+.specialize .specialize-div h1 {
+    font-size: 45px;
+}
+
+.specialize .specialize-div p {
+    font-size: 19px;
+    color: rgb(39, 37, 37);
+}
+
+.specialize .specialize-div .specialize-btn{
+    padding: 10px;
+}
+
+.specialize .specialize-div button{
+    padding: 15px 30px;
+    text-decoration: white;
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.specialize .specialize-div .specialize-btn a{
+    color: white;
+    text-decoration: none;
+}
+.need-help{
+    width: 100%;
+}
+
+.need-help-div {
+    display: flex;
+    padding: 60px 160px;
+}
+
+.need-help-div .need-help-by p {
+    padding: 0 80px;
+}
+
+.need-help-div .need-help-need {
+    padding-top: 20px;
+}
+
+.need-help-div .need-help-need h1 {
+    font-size: 33px;
+}
+
+.need-help-div .need-help-need h2{
+    font-size: 28px;
+    color: rgb(230, 7, 7);
+}
+
+.best-quality {
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.best-quality .best-quality-div .best-quality-image img {
+    width: 130%;
+    background-size: cover;
+    transform: scale(1.1);
+    padding-top: 20px;
+}
+
+.best-quality-div {
+    display: flex;
+    justify-content: center;
+    padding: 0 150px 20px 150px;
+}
+
+.best-quality .best-quality-div .best-quality-best {
+    padding: 150px 50px 0 200px;
+}
+
+.best-quality .best-quality-div .best-quality-best h1 {
+    font-size: 62px;
+    color: rgb(5, 70, 145);
+    border-bottom: red 10px solid;
+    padding-bottom: 20px;
+}
+
+.best-quality .best-quality-div .best-quality-best p{
+    font-size: 20px;
+}
+
+.best-quality .best-quality-div .best-quality-best button {
+    padding: 15px 30px;
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.best-quality .best-quality-div .best-quality-best .best-quality-btn a {
+    text-decoration: none;
+    color: white;
+}
+.our-services {
+    width: 100%;
+}
+
+.our-services .our-services-div {
+    display: flex;
+}
+
+.our-services img {
+    background-color: red;
+    padding: 10px;
+    border-color: red;
+    border-radius: 40px;
+    font-size: small;
+}
+
+.our-services .our-services-group {
+    padding: 50px 150px 100px;
+}
+
+.our-services .our-services-group h1 {
+    font-size: 42px;
+}
+
+.our-services .our-services-group .our-services-div p {
+    padding-right: 20px;
+    font-size: 19px;
+    color: rgb(29, 27, 27);
+}
+
+.about-us{
+    background-color: rgb(5, 70, 145);
+    width: 100%;
+}
+
+.about-us .about-us-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 80px 80px 50px;
+}
+
+.about-us .about-us-div .about-us-images img {
+    height: 180px;
+    width: 40%;
+    margin: 15px;
+}
+
+.about-us .about-us-div .about-us-about {
+    padding: 120px 50px;
+    color: white;
+}
+
+.about-us .about-us-div .about-us-about h4 {
+    font-size: 72px;
+    font-weight: 200;
+}
+
+.about-us .about-us-div .about-us-about h1{
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+.to-do {
+    width: 100%;
+}
+
+.to-do .to-do-div{
+    text-align: center;
+    padding: 100px 200px 70px;
+}
+
+.to-do .to-do-div .to-do-get {
+    padding: 0 100px;
+}
+
+.to-do .to-do-div .to-do-get h3 {
+    font-size: 40px;
+}
+
+.to-do .to-do-div .to-do-we {
+    padding: 0 150px;
+}
+
+.to-do .to-do-div .to-do-we p {
+    font-size: 30px;
+}
+
+.to-do .to-do-div .to-do-btn button {
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.to-do .to-do-div .to-do-btn .to-do-btn1 {
+    padding: 15px 35px;
+    background-color: red;
+    border-color: red;
+}
+
+.to-do .to-do-div .to-do-btn .to-do-btn2 {
+    padding: 15px 50px;
+    background-color: white;
+}
+
+.to-do .to-do-div .to-do-btn .to-do-btn1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.to-do .to-do-div .to-do-btn .to-do-btn2 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.text-box {
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+}
+
+.text-box .text-box-div{
+    text-align: center;
+    padding: 60px;
+}
+
+.text-box .text-box-div p{
+    color: white;
+}
+
+.text-box .text-box-div a{
+    color: rgb(137, 165, 192);
+}
+
+.text-box .text-box-div a:hover {
+    color: rgb(151, 150, 150);
+    text-decoration: none;
+}
+
+.text-box .text-box-div .text-box-sample {
+    padding: 0 370px;
+}
+
+@media (max-width: 425px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+    .house-repair .house-repair-div {
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .house-repair-div h2{
+        font-size: 1.1rem;
+    }
+    .house-repair-div h1{
+        font-size: 1.5rem;
+        border-bottom: 4px solid white;
+        padding-bottom: 5px;
+    }
+    .house-repair-services {
+        display: none;
+    }
+    .specialize-div{
+        padding: 30px 10px;
+    }
+    .need-help-div {
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+    }
+    .need-help-div img{
+        width: 100%;
+    }
+    .need-help .need-help-div .need-help-by p{
+        padding: 10px;
+    }
+    .best-quality-div{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .best-quality .best-quality-div .best-quality-image img{
+        width: 70%;
+    }
+    .best-quality .best-quality-div .best-quality-best {
+        padding: 100px 10px 10px;
+    }
+    .our-services-div {
+        flex-direction: column;
+    }
+    .our-services .our-services-group {
+        padding: 30px;
+    }
+    .about-us-div{
+        flex-direction: column;
+    }
+    .about-us .about-us-div {
+        padding: 20px;
+    }
+    .about-us .about-us-div .about-us-about {
+        padding: 10px;
+    }
+    .to-do .to-do-div {
+        text-align: center;
+        padding: 50px;
+    }
+    .to-do .to-do-div .to-do-we {
+        padding: 0;
+    }
+    .to-do .to-do-div .to-do-get {
+        padding: 0;
+    }
+    .to-do .to-do-div .to-do-btn button {
+        margin: 20px 5px;
+    }
+    .text-box .text-box-div .text-box-sample {
+        padding: 0;
+    }
+}
+
+@media (min-width: 480px) {
+    body{
+        width: fit-content;
+    }
+    .navbar{
+        padding: 20px;
+    }
+}
